@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    padding: 10px;
+}
+.logo {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+main>img {
+    width: 100%;
+}
+#about {
+    text-align: center;
+    font-size: 2em;
+    
+}
+#portfolio {
+    text-align: center;
+    font-size: 2em;
+}
+#contact {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:orchid;
+}
+form {
+    padding: 20px;
+}
+.form-in {
+    margin-bottom:8px;
+}
+
+footer{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 15px;
+    background-color: aquamarine;
+}
+span>img {
+    width: 80%;
+     padding-right:40px;
+     padding-top: 10px; 
+     padding-bottom: 10px;
+     display:inline-block;
+}
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    color: #ffffff;
+  background-color: #530f6e80;
+}
+#message {
+    border-radius: 5px;
+}
